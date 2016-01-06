@@ -2,6 +2,7 @@
 
 #date && echo "start uni light uni moderate" && \
 #./run_bench_Array_granular.sh myapp uni-light 10 uni-moderate && \
+# 40000
 #date && echo "start uni medium uni moderate" && \
 ./run_bench_Array_granular.sh myapp uni-medium 10 uni-moderate && \
 #date && echo "start uni heavy uni moderate" && \
