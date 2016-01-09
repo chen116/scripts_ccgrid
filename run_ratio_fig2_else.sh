@@ -2,7 +2,7 @@
 date
 WORK_DIR="/root/experiment-scripts/run-data-fig2/"
 PROG=$1
-
+j=0
 #declare -a Dist=("bimo-medium")
 #declare -a Dist=("uni-heavy" "uni-medium" "uni-light" "bimo-medium")
 #declare -a Dist=("uni-light")
@@ -37,9 +37,11 @@ for dist in "${Dist[@]}"
 do
   for util in "${Util[@]}"
   do
+    
     for rep in "${Rep[@]}"
     do
-      dtdir="$dist""_""$pdist""_""$util"_"$rep"
+      dtdir="$dist""_""$pdist""_""$util"_"$rep"_"$j"
+      j=$((j+1))
       
       cd $dtdir; rm -f all; rm -f wcl;
       st_job_stats *.bin > all
