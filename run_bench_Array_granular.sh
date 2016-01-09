@@ -25,7 +25,7 @@ declare -a NEW_SPIN_PIDS
 #SchedNames="GSN-EDF
 #C-EDF"
 SchedNames="GSN-EDF"
-
+j=0
 for sched in $SchedNames
 do
   #for util in 0.2 0.4 0.6 0.8 .2
@@ -38,7 +38,9 @@ do
 #   for util in 8.2 8.4 8.6 8.8
 #  for util in 0.2 0.4 0.6 0.8 1.2 1.4 1.6 1.8 2.2 2.4 2.6 2.8 3.2 3.4 3.6 3.8 4.2 4.4 4.6 4.8 5.2 5.4 5.6 5.8 6.2 6.4 6.6 6.8 7.2 7.4 7.6 7.8 8
  # for util in 0.2 0.4 0.6 0.8 1 1.2 1.4 1.6 1.8 2 2.2 2.4 2.6 2.8 3 3.2 3.4 3.6 3.8 4 4.2 4.4 4.6 4.8 5 5.2 5.4 5.6 5.8 6 6.2 6.4 6.6 6.8 7 7.2 7.4 7.6 7.8 8 8.2 8.4
- for util in 0.2 0.4 0.6 0.8 1 1.2 1.4 1.6 1.8 2 2.2 2.4 2.6 2.8 3 3.2 3.4 3.6 3.8 4 4.2 4.4 4.6
+ for util in 4.2 4.2 4.2 4.2 4.2 4.2 4.2 4.2 4.2 4.2 4.2 4.2 4.2 4.2 4.2 4.2 4.2 4.2 4.2 4.2
+ 
+ #for util in 0.2 0.4 0.6 0.8 1 1.2 1.4 1.6 1.8 2 2.2 2.4 2.6 2.8 3 3.2 3.4 3.6 3.8 4 4.2 4.4 4.6
  #for util in 1 2 3 4 4.2
   do
     #for rep in 0
@@ -120,8 +122,9 @@ wait ${ST_TRACE_PID}
 sleep 1
 
 mkdir -p run-data-fig2/"$PROG"/
-mkdir run-data-fig2/"$PROG"/"$Dist""_""$PDist""_""$util""_""$rep"/
-mv /dev/shm/*.bin run-data-fig2/"$PROG"/"$Dist""_""$PDist""_""$util""_""$rep"/
+mkdir run-data-fig2/"$PROG"/"$Dist""_""$PDist""_""$util""_""$rep"_"$j"/
+mv /dev/shm/*.bin run-data-fig2/"$PROG"/"$Dist""_""$PDist""_""$util""_""$rep"_"$j"/
+j=$((j+1))
 #mv log.txt run-data/"$sched"_$rep/
 sleep 1
 echo "Done! Collect your logs."
