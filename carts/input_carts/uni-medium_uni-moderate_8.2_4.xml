@@ -1,0 +1,42 @@
+<system max_period="1" min_period="1" os_scheduler="EDF">
+	<component max_period="400" min_period="400" name="vm1" scheduler="EDF">
+		<task d="63000" e="10135" name="t0" p="63000" />
+	<task d="37000" e="3737" name="t1" p="37000" />
+	<task d="63000" e="14475" name="t2" p="63000" />
+	<task d="36000" e="8604" name="t3" p="36000" />
+	<task d="27000" e="4537" name="t4" p="27000" />
+	<task d="47000" e="9383" name="t5" p="47000" />
+	<task d="15000" e="2033" name="t6" p="15000" />
+	<task d="21000" e="6470" name="t7" p="21000" />
+	<task d="55000" e="17369" name="t8" p="55000" />
+	<task d="83000" e="28712" name="t9" p="83000" />
+	<task d="13000" e="1838" name="t10" p="13000" />
+	<task d="95000" e="35130" name="t11" p="95000" />
+	<task d="31000" e="10565" name="t12" p="31000" />
+	<task d="28000" e="4797" name="t13" p="28000" />
+	<task d="47000" e="13071" name="t14" p="47000" />
+	<task d="72000" e="8299" name="t15" p="72000" />
+	<task d="99000" e="31127" name="t16" p="99000" />
+	<task d="55000" e="20802" name="t17" p="55000" />
+	<task d="35000" e="4830" name="t18" p="35000" />
+	<task d="39000" e="13530" name="t19" p="39000" />
+	<task d="50000" e="17932" name="t20" p="50000" />
+	<task d="100000" e="27994" name="t21" p="100000" />
+	<task d="78000" e="9857" name="t22" p="78000" />
+	<task d="44000" e="16562" name="t23" p="44000" />
+	<task d="56000" e="9153" name="t24" p="56000" />
+	<task d="59000" e="6210" name="t25" p="59000" />
+	<task d="27000" e="3894" name="t26" p="27000" />
+	<task d="21000" e="2413" name="t27" p="21000" />
+	<task d="31000" e="3817" name="t28" p="31000" />
+	<task d="44000" e="17535" name="t29" p="44000" />
+	<task d="99000" e="20041" name="t30" p="99000" />
+	<task d="45000" e="5058" name="t31" p="45000" />
+	<task d="85000" e="18216" name="t32" p="85000" />
+	<task d="58000" e="8452" name="t33" p="58000" />
+	<task d="77000" e="14777" name="t34" p="77000" />
+	<task d="44000" e="11902" name="t35" p="44000" />
+	<task d="30000" e="2219" name="t36" p="30000" />
+	</component>
+	
+</system>

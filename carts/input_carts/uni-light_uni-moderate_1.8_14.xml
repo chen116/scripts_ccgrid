@@ -1,0 +1,44 @@
+<system max_period="1" min_period="1" os_scheduler="EDF">
+	<component max_period="400" min_period="400" name="vm1" scheduler="EDF">
+		<task d="78000" e="997" name="t0" p="78000" />
+	<task d="89000" e="4017" name="t1" p="89000" />
+	<task d="68000" e="5363" name="t2" p="68000" />
+	<task d="16000" e="911" name="t3" p="16000" />
+	<task d="14000" e="1149" name="t4" p="14000" />
+	<task d="48000" e="839" name="t5" p="48000" />
+	<task d="57000" e="881" name="t6" p="57000" />
+	<task d="40000" e="564" name="t7" p="40000" />
+	<task d="56000" e="336" name="t8" p="56000" />
+	<task d="66000" e="1757" name="t9" p="66000" />
+	<task d="98000" e="2196" name="t10" p="98000" />
+	<task d="39000" e="3442" name="t11" p="39000" />
+	<task d="18000" e="892" name="t12" p="18000" />
+	<task d="92000" e="1363" name="t13" p="92000" />
+	<task d="19000" e="1641" name="t14" p="19000" />
+	<task d="63000" e="1334" name="t15" p="63000" />
+	<task d="54000" e="3778" name="t16" p="54000" />
+	<task d="97000" e="8336" name="t17" p="97000" />
+	<task d="40000" e="98" name="t18" p="40000" />
+	<task d="90000" e="7221" name="t19" p="90000" />
+	<task d="91000" e="5204" name="t20" p="91000" />
+	<task d="15000" e="556" name="t21" p="15000" />
+	<task d="35000" e="3155" name="t22" p="35000" />
+	<task d="40000" e="2035" name="t23" p="40000" />
+	<task d="44000" e="1579" name="t24" p="44000" />
+	<task d="49000" e="2780" name="t25" p="49000" />
+	<task d="71000" e="73" name="t26" p="71000" />
+	<task d="67000" e="1351" name="t27" p="67000" />
+	<task d="85000" e="7047" name="t28" p="85000" />
+	<task d="59000" e="2782" name="t29" p="59000" />
+	<task d="44000" e="4127" name="t30" p="44000" />
+	<task d="15000" e="1011" name="t31" p="15000" />
+	<task d="30000" e="539" name="t32" p="30000" />
+	<task d="40000" e="399" name="t33" p="40000" />
+	<task d="31000" e="2682" name="t34" p="31000" />
+	<task d="81000" e="4223" name="t35" p="81000" />
+	<task d="32000" e="1084" name="t36" p="32000" />
+	<task d="96000" e="3073" name="t37" p="96000" />
+	<task d="57000" e="2882" name="t38" p="57000" />
+	</component>
+	
+</system>

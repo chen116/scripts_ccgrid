@@ -1,0 +1,23 @@
+<component name="system" resource_model="MPR2 model" >
+<resource>
+<model cpus="0" period="1" execution_time="2047483647"> </model> 
+</resource> 
+<processed_task> 
+<model period="1" execution_time="2047483647" deadline="1" > </model> 
+</processed_task> 
+<component name="vm1" resource_model="MPR2 model" >
+<resource>
+<model cpus="8" period="400" execution_time="3197"> </model> 
+</resource> 
+<processed_task> 
+<model period="400" execution_time="400" deadline="400" > </model> 
+<model period="400" execution_time="400" deadline="400" > </model> 
+<model period="400" execution_time="400" deadline="400" > </model> 
+<model period="400" execution_time="400" deadline="400" > </model> 
+<model period="400" execution_time="400" deadline="400" > </model> 
+<model period="400" execution_time="399" deadline="400" > </model> 
+<model period="400" execution_time="399" deadline="400" > </model> 
+<model period="400" execution_time="399" deadline="400" > </model> 
+</processed_task> 
+</component>
+</component>
