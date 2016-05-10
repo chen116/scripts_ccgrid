@@ -1,0 +1,16 @@
+<system max_period="1" min_period="1" os_scheduler="EDF">
+	<component max_period="400" min_period="400" name="vm1" scheduler="EDF">
+		<task d="78000" e="66716" name="t0" p="78000" />
+	<task d="222000" e="6810" name="t1" p="222000" />
+	<task d="90000" e="73904" name="t2" p="90000" />
+	<task d="222000" e="35219" name="t3" p="222000" />
+	<task d="89000" e="27733" name="t4" p="89000" />
+	<task d="201000" e="135165" name="t5" p="201000" />
+	<task d="78000" e="10258" name="t6" p="78000" />
+	<task d="153000" e="12678" name="t7" p="153000" />
+	<task d="210000" e="65705" name="t8" p="210000" />
+	<task d="110000" e="37343" name="t9" p="110000" />
+	<task d="138000" e="11506" name="t10" p="138000" />
+	</component>
+	
+</system>

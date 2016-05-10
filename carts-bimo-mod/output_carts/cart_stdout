@@ -1,0 +1,4 @@
+Command is:./input_carts/bimo-medium_uni-moderate_4_9.xml MPR ./output_carts/out_bimo-medium_uni-moderate_4_9.xml whichSchedTest=3
+Open the file ./output_carts/out_bimo-medium_uni-moderate_4_9.xml to write...
+Process  CSA with MPR2 model finished!
+Command is:./input_carts/bimo-medium_uni-moderate_4_10.xml MPR ./output_carts/out_bimo-medium_uni-moderate_4_10.xml whichSchedTest=3

@@ -1,0 +1,28 @@
+<system max_period="1" min_period="1" os_scheduler="EDF">
+	<component max_period="400" min_period="400" name="vm1" scheduler="EDF">
+		<task d="90000" e="20009" name="t0" p="90000" />
+	<task d="44000" e="12347" name="t1" p="44000" />
+	<task d="95000" e="36817" name="t2" p="95000" />
+	<task d="77000" e="26453" name="t3" p="77000" />
+	<task d="12000" e="3826" name="t4" p="12000" />
+	<task d="12000" e="2836" name="t5" p="12000" />
+	<task d="31000" e="10363" name="t6" p="31000" />
+	<task d="67000" e="19876" name="t7" p="67000" />
+	<task d="19000" e="2875" name="t8" p="19000" />
+	<task d="74000" e="15391" name="t9" p="74000" />
+	<task d="93000" e="36728" name="t10" p="93000" />
+	<task d="96000" e="17247" name="t11" p="96000" />
+	<task d="25000" e="5416" name="t12" p="25000" />
+	<task d="13000" e="1519" name="t13" p="13000" />
+	<task d="65000" e="12887" name="t14" p="65000" />
+	<task d="61000" e="15938" name="t15" p="61000" />
+	<task d="91000" e="36305" name="t16" p="91000" />
+	<task d="40000" e="9695" name="t17" p="40000" />
+	<task d="35000" e="8766" name="t18" p="35000" />
+	<task d="66000" e="17475" name="t19" p="66000" />
+	<task d="41000" e="4457" name="t20" p="41000" />
+	<task d="72000" e="13457" name="t21" p="72000" />
+	<task d="27000" e="20" name="t22" p="27000" />
+	</component>
+	
+</system>
