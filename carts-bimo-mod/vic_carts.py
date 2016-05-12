@@ -164,10 +164,15 @@ def read_tasksets(util,periods):
 		# periods = ["uni-moderate","uni-longRTXen"]
 	for ui in util:
 		for pi in periods:
-			util_rate = numpy.linspace(0.2,8.4,42)
+			cntt=0
+			util_rate = numpy.linspace(0.4,8.4,17)
 			# util_rate = numpy.linspace(8.2,8.2,1)
+			cntt=0
 			for ur in util_rate:
-				iteration = numpy.linspace(0,24,25)
+				if cntt%2>0:
+					ur=round(ur-0.1,2)
+				cntt+=1
+				iteration = numpy.linspace(0,2,3)
 				# iteration = numpy.linspace(0,0,1)
 				# processing 1 file now
 				for it in iteration:
@@ -279,4 +284,4 @@ if __name__ == "__main__":
 
 		read_CARTS_Output()
 
- 
+

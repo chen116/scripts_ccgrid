@@ -1,0 +1,16 @@
+<component name="system" resource_model="MPR2 model" >
+<resource>
+<model cpus="1" period="1" execution_time="1"> </model> 
+</resource> 
+<processed_task> 
+<model period="1" execution_time="1" deadline="1" > </model> 
+</processed_task> 
+<component name="vm1" resource_model="MPR2 model" >
+<resource>
+<model cpus="1" period="400" execution_time="93"> </model> 
+</resource> 
+<processed_task> 
+<model period="400" execution_time="93" deadline="400" > </model> 
+</processed_task> 
+</component>
+</component>

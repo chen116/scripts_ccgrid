@@ -1,0 +1,43 @@
+<system max_period="1" min_period="1" os_scheduler="EDF">
+	<component max_period="400" min_period="400" name="vm1" scheduler="EDF">
+		<task d="27000" e="703" name="t0" p="27000" />
+	<task d="87000" e="5612" name="t1" p="87000" />
+	<task d="11000" e="431" name="t2" p="11000" />
+	<task d="29000" e="969" name="t3" p="29000" />
+	<task d="93000" e="8571" name="t4" p="93000" />
+	<task d="61000" e="3861" name="t5" p="61000" />
+	<task d="66000" e="2051" name="t6" p="66000" />
+	<task d="92000" e="6789" name="t7" p="92000" />
+	<task d="65000" e="5446" name="t8" p="65000" />
+	<task d="61000" e="2041" name="t9" p="61000" />
+	<task d="94000" e="9397" name="t10" p="94000" />
+	<task d="60000" e="2943" name="t11" p="60000" />
+	<task d="93000" e="4338" name="t12" p="93000" />
+	<task d="21000" e="1770" name="t13" p="21000" />
+	<task d="82000" e="6844" name="t14" p="82000" />
+	<task d="24000" e="707" name="t15" p="24000" />
+	<task d="35000" e="2424" name="t16" p="35000" />
+	<task d="83000" e="4364" name="t17" p="83000" />
+	<task d="84000" e="7025" name="t18" p="84000" />
+	<task d="78000" e="1352" name="t19" p="78000" />
+	<task d="56000" e="2498" name="t20" p="56000" />
+	<task d="49000" e="2703" name="t21" p="49000" />
+	<task d="55000" e="826" name="t22" p="55000" />
+	<task d="81000" e="3962" name="t23" p="81000" />
+	<task d="48000" e="3865" name="t24" p="48000" />
+	<task d="51000" e="4457" name="t25" p="51000" />
+	<task d="35000" e="2174" name="t26" p="35000" />
+	<task d="13000" e="1255" name="t27" p="13000" />
+	<task d="42000" e="566" name="t28" p="42000" />
+	<task d="70000" e="4440" name="t29" p="70000" />
+	<task d="21000" e="1771" name="t30" p="21000" />
+	<task d="50000" e="4051" name="t31" p="50000" />
+	<task d="57000" e="1899" name="t32" p="57000" />
+	<task d="40000" e="3557" name="t33" p="40000" />
+	<task d="16000" e="777" name="t34" p="16000" />
+	<task d="19000" e="1880" name="t35" p="19000" />
+	<task d="87000" e="126" name="t36" p="87000" />
+	<task d="15000" e="598" name="t37" p="15000" />
+	</component>
+	
+</system>
